@@ -1,0 +1,362 @@
+:root {
+    --primary-color: #111;
+    --secondary-color: #ebebeb;
+    --font-primary: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #111; 
+    color: #fff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    background-color: #111;
+    padding: 50px 0;
+    margin: 20px;
+    border-radius: 8px;
+    height: 100vh;
+    width: 100vw; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header, footer {
+    height: auto;
+}
+
+.container {
+    width: 90%; /* Adjust width as needed */
+    max-width: 1200px; /* Adjust maximum width as needed */
+    height: auto;
+    margin: 0 auto; /* Centering horizontally */
+}
+
+h2, h3, p, a, li {
+    color: #111; 
+}
+
+h2{
+    text-align: center;
+}
+
+.home-content p {
+    font-size: 18px; /* Adjust font size as needed */
+    line-height: 1.6; /* Improves readability */
+}
+
+.my-img img {
+    margin-top: -100px;
+    margin-right: 200px;
+}
+
+.want, .ab{
+    color: white;
+}
+
+.btn, .socials a {
+    background-color: #fff; 
+    color: #f0f0f0;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.btn-proj{
+    background-color: #c7c7c7; 
+    color: #030303;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.btn:hover, .socials a:hover, .btn-proj:hover {
+    background-color: #f0f0f0;
+}
+
+
+header {
+    background-color: transparent;
+    color: white;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    padding: 1rem;
+    align-items: center;
+    position: fixed;
+    width: 100%; /* Occupy the full width of the viewport */
+}
+
+.dark-navbar {
+    background-color: rgb(136, 133, 133);
+    color: #111;
+}
+
+.light-navbar {
+    background-color: transparent;
+    color: black;
+}
+
+/* Styling the navbar to match the provided design */
+.navbar {
+    background: none; /* Removing any background color */
+    padding: 10px 20px; /* Appropriate padding */
+    text-align: center; /* Center the navigation */
+}
+
+.navbar ul {
+    display: inline-block; /* Center the list horizontally */
+    background-color: rgba(255, 255, 255, 0.5); /* Translucent white background */
+    padding: 10px 30px; /* Padding inside the pill-shaped outline */
+    border-radius: 50px; /* Rounded corners for the pill shape */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.navbar li {
+    display: inline; /* Inline display for horizontal layout */
+    margin: 0 10px; /* Margin between links */
+}
+
+.navbar a {
+    text-decoration: none; /* Remove underlines from links */
+    color: #333; /* Dark grey color for text */
+    font-size: 16px; /* Size of the font */
+    font-weight: 500; /* Font weight for slight emphasis */
+    padding: 8px 16px; /* Padding for each link */
+    border-radius: 20px; /* Rounded corners for each link */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transitions for hover effects */
+}
+
+/* Hover effects for links */
+.navbar a:hover, .navbar a.active {
+    background-color: #a5aab1; /* Bright blue background for active/hover state */
+    color: white; /* White text for active/hover state */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .navbar ul {
+        padding: 10px; /* Less padding on smaller screens */
+    }
+
+    .navbar li {
+        margin: 5px 0; /* Stack the links vertically with space between */
+    }
+
+    .navbar a {
+        display: block; /* Full-width links for easier touch targets */
+    }
+}
+
+
+
+
+#menu-icon {
+    display: none;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.home {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px;
+    background-color: #111;
+    color: #fff;
+    height: 100vh;
+}
+
+.name-title {
+    font-size: 4rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+.intro-text {
+    font-size: 1.25rem;
+    max-width: 600px;
+    line-height: 1.4;
+}
+
+.scroll-indicator {
+    font-size: 1rem;
+    margin-top: 2rem;
+    opacity: 0.6;
+}
+
+.socials {
+    display: flex;
+    gap: 10px; 
+    margin-top: 20px; 
+}
+.socials a {
+    display: inline-flex; 
+    align-items: center; 
+    justify-content: center; 
+}
+
+
+.portrait {
+    width: 40%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.about-section {
+    background-color: #f0f0f0;
+    padding: 50px 0;
+}
+
+.about-info {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.about-info h2 {
+    color: #333;
+    text-align: center;
+    
+}
+
+.skills-list {
+    list-style: none;
+    padding: 0;
+}
+
+.skills-list li {
+    background-color: #e1e1e1;
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 5px;
+    border-radius: 50px;
+    color: #333;
+}
+
+.socials a {
+    color: #333;
+    padding: 10px;
+    border-radius: 50%;
+    transition: color 0.3s ease;
+}
+
+.socials a:hover {
+    color: #555;
+}
+
+.projects-section {
+    background-color: #ffffff;
+    padding: 50px 0;
+}
+
+.project-card {
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+
+
+.project-info {
+    text-align: center;
+}
+
+.services-section {
+    background-color: #f0f0f0;
+    padding: 50px 0;
+}
+
+.service-card {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+}
+
+.service-icon {
+    font-size: 48px;
+    color: #333;
+}
+
+.contact-section {
+    background-color: #ffffff;
+    padding: 50px 0;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.contact-form button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color: #555;
+}
+
+.project1-image {
+    width: 100%;        
+    height: auto;
+    object-fit: cover;  
+    border-radius: 8px; 
+
+}
+
+.navigation-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    padding: 20px;
+    gap: 20px; 
+}
+
+#prev-btn, #next-btn {
+    padding: 10px 20px;
+    background-color: #111;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#prev-btn:hover, #next-btn:hover {
+    background-color: #888888;
+}
+
+
+.btn, .navbar a {
+    transition: background-color 0.3s ease;
+}
+.btn:hover, .navbar a:hover {
+    background-color: #9b9b9b; 
+}
+
