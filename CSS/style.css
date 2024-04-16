@@ -360,3 +360,32 @@ header {
     background-color: #9b9b9b; 
 }
 
+@media (max-width: 768px) {
+    .home-content p {
+        font-size: 16px; /* Smaller font size */
+        line-height: 1.4; /* Adjust line height for better readability */
+    }
+    section {
+        padding: 20px 0; /* Reduce padding */
+        height: auto; /* Allow section height to grow with content */
+    }
+}
+
+@media (max-width: 768px) {
+    .home {
+        flex-direction: column; /* Stack children vertically */
+        justify-content: center; /* Center vertically */
+        align-items: center; /* Center horizontally */
+    }
+    .my-img img {
+        margin-top: 20px; /* Reduce margin top */
+        margin-right: 0; /* Remove right margin */
+    }
+}
+@media (max-width: 768px) {
+    .my-img img {
+        margin-top: 10px; /* Less negative margin */
+        margin-right: 0; /* No right margin */
+    }
+}
+
