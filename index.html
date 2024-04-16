@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dimitris Mouskou's Portfolio</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="CSS/style.css">
+    <script defer src="JavaScript/script.js"></script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="#"></a>
+        </div>
+        <nav class="navbar" id="main-nav">
+            <button class='bx bx-menu' id="menu-icon" aria-label="Menu"></button>
+            <ul>
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+<main>
+    <section class="home" id="home">
+        <div class="home-content">
+            <h1>Hi, I'm Dimitris Mouskou</h1>
+            <p class="want">I aspire to be a <strong>Software Engineer!</strong></p>
+            <p class="ab">Welcome to my personal portfolio where I showcase my journey as a software engineer.<br> I specialize in front-end development and am passionate about building scalable and efficient software solutions.<br>
+                Through this website, I aim to connect with fellow professionals and potential employers to explore opportunities <br>for collaboration and career growth.
+                Please feel free to browse through my projects and reach out via the contact<br> page if you'd like to discuss potential projects or opportunities.
+                <br>Thank you for visiting!</p>
+        </div>
+        <div class="my-img">
+            <img src="Files/Me.png" alt="Dimitris Mouskou posing" width="400" height="500" style="max-width:100%;height:auto;">
+        </div>
+    </section>
+
+    <section id="about" class="section about-section">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-info">
+                    <h2>About Me</h2>
+                    <p>Hello, I'm Dimitris Mouskou, a passionate Software Engineer based in Akaki, Cyprus. Studing in University of Cyprus, i have developed a profound interest in web technologies and software engineering.</p>
+                    <p>I specialize in HTML, CSS, JavaScript, Python and Java. I am constantly learning and evolving to ensure that I can provide the best and fastest solutions to different problems.<br> 
+                        I love collaborating with clients to bring their vision to life and i excel in team work and communication with people</p>
+                    <ul class="skills-list">
+                        <li>HTML/CSS</li>
+                        <li>JavaScript</li>
+                        <li>PHP</li>
+                        <li>Java</li>
+                        <li>Python</li>
+                        <li>C</li>
+                        <li>Data Strucutres  & Algorithms</li>
+                    </ul>
+                    <div class="socials">
+                        <a href="https://www.linkedin.com/in/dimitris-mouskou-b08137263/"><i class='bx bxl-linkedin-square'></i></a>
+                        <a href="https://github.com/dmousk"><i class='bx bxl-github'></i></a>
+                        <a href="https://www.facebook.com/demetris.mouskou"><i class='bx bxl-facebook-square'></i></a>
+                        <a href="https://www.instagram.com/dimitris_msk/"><i class='bx bxl-instagram-alt'></i></a>
+                    </div>
+                    <a href="Files/Dimitris_Mouskou_CV.pdf" class="btn-download-cv">Download CV</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section projects-section">
+        <div class="container">
+            <h2 class="section-title">My Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <img src="Files/TDD.png" alt="Project 1 Screenshot" class="project1-image">
+                    <div class="project-info">
+                        <h3>Tourist Destination Dashboard</h3>
+                        <p>Give appealing information to tourists related to current and forecasted weather conditions as well as to 3 top tourist attractions for any city in Cyprus.</p>
+                    </div>
+                    <div class="navigation-buttons">
+                        <a href="https://github.com/dmousk/TDD" class="btn-proj">Code Repository</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="Files/LS.png" alt="Project 1 Screenshot" class="project1-image">
+                    <div class="project-info">
+                        <h3>Leave Manegement System</h3>
+                        <p>Showcase how leave is requested by employees and approved by managers, as well as how it is tracked for payroll, balance, and other purposes.</p>
+                    </div>
+                    <div class="navigation-buttons">
+                        <a href="https://github.com/dmousk/LMS" class="btn-proj">Code Repository</a>
+                    </div>
+                </div>
+                
+            </div>
+            
+            <div class="navigation-buttons">
+                <button id="prev-btn">Previous</button>
+                <button id="next-btn">Next</button>
+            </div>
+        </div>
+    </section>
+    
+    <section id="services" class="section services-section">
+        <div class="container">
+            <h2 class="section-title">Services I Offer</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <i class='bx bx-laptop' style='color:#27ae60'></i>
+                    <h3>Software Engineering</h3>
+                    <p>Comprehensive software solutions from concept to deployment, specializing in system architecture and optimization.</p>
+                </div>
+                <div class="service-card">
+                    <i class='bx bx-paint-roll' style='color:#2980b9'></i>
+                    <h3>Front End Development</h3>
+                    <p>Creating visually appealing, responsive, and user-friendly interfaces using the latest front-end technologies.</p>
+                </div>
+                <div class="service-card">
+                    <i class='bx bx-server' style='color:#8e44ad'></i>
+                    <h3>Back End Development</h3>
+                    <p>Robust back-end development services to ensure scalable, efficient, and secure server-side applications.</p>
+                </div>
+                <div class="service-card">
+                    <i class='bx bx-code-alt service-icon' style='color:#f39c12'></i>
+                    <h3>Web Development</h3>
+                    <p>Full-stack development services using modern technologies to build dynamic and responsive websites.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+    <section id="contact" class="section contact-section">
+        <div class="container">
+            <h2 class="section-title">Get in Touch</h2>
+            <form action="PHP/send_email.php" method="post" class="contact-form">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" rows="6" required></textarea>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+    
+    </main>
+    <footer>
+        <p>© 2024 Dimitris Mouskou. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
