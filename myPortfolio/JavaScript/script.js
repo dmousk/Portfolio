@@ -121,9 +121,6 @@ document.addEventListener('DOMContentLoaded', function() {
     sections.forEach(section => {
         observer.observe(section);
     });
-
-    // Optional: Define custom styles for the navbar when on certain sections
-    // This can be based on the section's background-color, or any other property
 });
 
 
